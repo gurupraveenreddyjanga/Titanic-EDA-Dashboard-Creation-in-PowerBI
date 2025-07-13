@@ -61,30 +61,7 @@ The interactive report (see `Titanic Report.pbix`) includes:
 - Children had a better chance of survival than adults
 - Passengers who embarked from Cherbourg had higher survival rates
 
----
-
-## 🚀 How to Use This Repository
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/yourusername/titanic-analysis.git
-cd titanic-analysis
-2. Run EDA notebook
-Open Titanic EDA.ipynb using Jupyter or VSCode. Required libraries:
-
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib seaborn
-3. Explore Power BI report
-Open Titanic Report.pbix using Power BI Desktop:
-
-Download from: https://powerbi.microsoft.com/en-us/desktop/
-
-Explore insights using available filters and visuals
-
-🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies Used
 Python (Pandas, NumPy, Seaborn, Matplotlib)
 
 Power BI Desktop
