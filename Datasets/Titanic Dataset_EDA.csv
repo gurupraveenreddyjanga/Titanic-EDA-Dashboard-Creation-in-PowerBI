@@ -1,0 +1,890 @@
+S.NO,PassengerId,Name,Sex,Age,Fare,Embarked,Pclass,SibSp,Parch,Survived,Title,Survived
+1,1,"Braund, Mr. Owen Harris",male,22,7.25,S,3,1,0,0,Mr,NOT SURVIVED
+2,2,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,71.2833,C,1,1,0,1,Mrs,SURVIVED
+3,3,"Heikkinen, Miss. Laina",female,26,7.925,S,3,0,0,1,Miss,SURVIVED
+4,4,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,53.1,S,1,1,0,1,Mrs,SURVIVED
+5,5,"Allen, Mr. William Henry",male,35,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+6,6,"Moran, Mr. James",male,30,8.4583,Q,3,0,0,0,Mr,NOT SURVIVED
+7,7,"McCarthy, Mr. Timothy J",male,54,51.8625,S,1,0,0,0,Mr,NOT SURVIVED
+8,8,"Palsson, Master. Gosta Leonard",male,2,21.075,S,3,3,1,0,Master,NOT SURVIVED
+9,9,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,11.1333,S,3,0,2,1,Mrs,SURVIVED
+10,10,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,30.0708,C,2,1,0,1,Mrs,SURVIVED
+11,11,"Sandstrom, Miss. Marguerite Rut",female,4,16.7,S,3,1,1,1,Miss,SURVIVED
+12,12,"Bonnell, Miss. Elizabeth",female,58,26.55,S,1,0,0,1,Miss,SURVIVED
+13,13,"Saundercock, Mr. William Henry",male,20,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+14,14,"Andersson, Mr. Anders Johan",male,39,31.275,S,3,1,5,0,Mr,NOT SURVIVED
+15,15,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,7.8542,S,3,0,0,0,Miss,NOT SURVIVED
+16,16,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,16,S,2,0,0,1,Mrs,SURVIVED
+17,17,"Rice, Master. Eugene",male,2,29.125,Q,3,4,1,0,Master,NOT SURVIVED
+18,18,"Williams, Mr. Charles Eugene",male,30,13,S,2,0,0,1,Mr,SURVIVED
+19,19,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,18,S,3,1,0,0,Mrs,NOT SURVIVED
+20,20,"Masselmani, Mrs. Fatima",female,35,7.225,C,3,0,0,1,Mrs,SURVIVED
+21,21,"Fynney, Mr. Joseph J",male,35,26,S,2,0,0,0,Mr,NOT SURVIVED
+22,22,"Beesley, Mr. Lawrence",male,34,13,S,2,0,0,1,Mr,SURVIVED
+23,23,"McGowan, Miss. Anna ""Annie""",female,15,8.0292,Q,3,0,0,1,Miss,SURVIVED
+24,24,"Sloper, Mr. William Thompson",male,28,35.5,S,1,0,0,1,Mr,SURVIVED
+25,25,"Palsson, Miss. Torborg Danira",female,8,21.075,S,3,3,1,0,Miss,NOT SURVIVED
+26,26,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38,31.3875,S,3,1,5,1,Mrs,SURVIVED
+27,27,"Emir, Mr. Farred Chehab",male,30,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+28,28,"Fortune, Mr. Charles Alexander",male,19,263,S,1,3,2,0,Mr,NOT SURVIVED
+29,29,"O'Dwyer, Miss. Ellen ""Nellie""",female,21,7.8792,Q,3,0,0,1,Miss,SURVIVED
+30,30,"Todoroff, Mr. Lalio",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+31,31,"Uruchurtu, Don. Manuel E",male,40,27.7208,C,1,0,0,0,Royalty,NOT SURVIVED
+32,32,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,35,146.5208,C,1,1,0,1,Mrs,SURVIVED
+33,33,"Glynn, Miss. Mary Agatha",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+34,34,"Wheadon, Mr. Edward H",male,66,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+35,35,"Meyer, Mr. Edgar Joseph",male,28,82.1708,C,1,1,0,0,Mr,NOT SURVIVED
+36,36,"Holverson, Mr. Alexander Oskar",male,42,52,S,1,1,0,0,Mr,NOT SURVIVED
+37,37,"Mamee, Mr. Hanna",male,30,7.2292,C,3,0,0,1,Mr,SURVIVED
+38,38,"Cann, Mr. Ernest Charles",male,21,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+39,39,"Vander Planke, Miss. Augusta Maria",female,18,18,S,3,2,0,0,Miss,NOT SURVIVED
+40,40,"Nicola-Yarred, Miss. Jamila",female,14,11.2417,C,3,1,0,1,Miss,SURVIVED
+41,41,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40,9.475,S,3,1,0,0,Mrs,NOT SURVIVED
+42,42,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27,21,S,2,1,0,0,Mrs,NOT SURVIVED
+43,43,"Kraeff, Mr. Theodor",male,30,7.8958,C,3,0,0,0,Mr,NOT SURVIVED
+44,44,"Laroche, Miss. Simonne Marie Anne Andree",female,3,41.5792,C,2,1,2,1,Miss,SURVIVED
+45,45,"Devaney, Miss. Margaret Delia",female,19,7.8792,Q,3,0,0,1,Miss,SURVIVED
+46,46,"Rogers, Mr. William John",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+47,47,"Lennon, Mr. Denis",male,30,15.5,Q,3,1,0,0,Mr,NOT SURVIVED
+48,48,"O'Driscoll, Miss. Bridget",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+49,49,"Samaan, Mr. Youssef",male,30,21.6792,C,3,2,0,0,Mr,NOT SURVIVED
+50,50,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18,17.8,S,3,1,0,0,Mrs,NOT SURVIVED
+51,51,"Panula, Master. Juha Niilo",male,7,39.6875,S,3,4,1,0,Master,NOT SURVIVED
+52,52,"Nosworthy, Mr. Richard Cater",male,21,7.8,S,3,0,0,0,Mr,NOT SURVIVED
+53,53,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,76.7292,C,1,1,0,1,Mrs,SURVIVED
+54,54,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29,26,S,2,1,0,1,Mrs,SURVIVED
+55,55,"Ostby, Mr. Engelhart Cornelius",male,65,61.9792,C,1,0,1,0,Mr,NOT SURVIVED
+56,56,"Woolner, Mr. Hugh",male,30,35.5,S,1,0,0,1,Mr,SURVIVED
+57,57,"Rugg, Miss. Emily",female,21,10.5,S,2,0,0,1,Miss,SURVIVED
+58,58,"Novel, Mr. Mansouer",male,28.5,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+59,59,"West, Miss. Constance Mirium",female,5,27.75,S,2,1,2,1,Miss,SURVIVED
+60,60,"Goodwin, Master. William Frederick",male,11,46.9,S,3,5,2,0,Master,NOT SURVIVED
+61,61,"Sirayanian, Mr. Orsen",male,22,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+62,63,"Harris, Mr. Henry Birkhardt",male,45,83.475,S,1,1,0,0,Mr,NOT SURVIVED
+63,64,"Skoog, Master. Harald",male,4,27.9,S,3,3,2,0,Master,NOT SURVIVED
+64,65,"Stewart, Mr. Albert A",male,30,27.7208,C,1,0,0,0,Mr,NOT SURVIVED
+65,66,"Moubarek, Master. Gerios",male,3.5,15.2458,C,3,1,1,1,Master,SURVIVED
+66,67,"Nye, Mrs. (Elizabeth Ramell)",female,29,10.5,S,2,0,0,1,Mrs,SURVIVED
+67,68,"Crease, Mr. Ernest James",male,19,8.1583,S,3,0,0,0,Mr,NOT SURVIVED
+68,69,"Andersson, Miss. Erna Alexandra",female,17,7.925,S,3,4,2,1,Miss,SURVIVED
+69,70,"Kink, Mr. Vincenz",male,26,8.6625,S,3,2,0,0,Mr,NOT SURVIVED
+70,71,"Jenkin, Mr. Stephen Curnow",male,32,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+71,72,"Goodwin, Miss. Lillian Amy",female,16,46.9,S,3,5,2,0,Miss,NOT SURVIVED
+72,73,"Hood, Mr. Ambrose Jr",male,21,73.5,S,2,0,0,0,Mr,NOT SURVIVED
+73,74,"Chronopoulos, Mr. Apostolos",male,26,14.4542,C,3,1,0,0,Mr,NOT SURVIVED
+74,75,"Bing, Mr. Lee",male,32,56.4958,S,3,0,0,1,Mr,SURVIVED
+75,76,"Moen, Mr. Sigurd Hansen",male,25,7.65,S,3,0,0,0,Mr,NOT SURVIVED
+76,77,"Staneff, Mr. Ivan",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+77,78,"Moutal, Mr. Rahamin Haim",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+78,79,"Caldwell, Master. Alden Gates",male,0.83,29,S,2,0,2,1,Master,SURVIVED
+79,80,"Dowdell, Miss. Elizabeth",female,30,12.475,S,3,0,0,1,Miss,SURVIVED
+80,81,"Waelens, Mr. Achille",male,22,9,S,3,0,0,0,Mr,NOT SURVIVED
+81,82,"Sheerlinck, Mr. Jan Baptist",male,29,9.5,S,3,0,0,1,Mr,SURVIVED
+82,83,"McDermott, Miss. Brigdet Delia",female,21,7.7875,Q,3,0,0,1,Miss,SURVIVED
+83,84,"Carrau, Mr. Francisco M",male,28,47.1,S,1,0,0,0,Mr,NOT SURVIVED
+84,85,"Ilett, Miss. Bertha",female,17,10.5,S,2,0,0,1,Miss,SURVIVED
+85,86,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33,15.85,S,3,3,0,1,Mrs,SURVIVED
+86,87,"Ford, Mr. William Neal",male,16,34.375,S,3,1,3,0,Mr,NOT SURVIVED
+87,88,"Slocovski, Mr. Selman Francis",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+88,89,"Fortune, Miss. Mabel Helen",female,23,263,S,1,3,2,1,Miss,SURVIVED
+89,90,"Celotti, Mr. Francesco",male,24,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+90,91,"Christmann, Mr. Emil",male,29,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+91,92,"Andreasson, Mr. Paul Edvin",male,20,7.8542,S,3,0,0,0,Mr,NOT SURVIVED
+92,93,"Chaffee, Mr. Herbert Fuller",male,46,61.175,S,1,1,0,0,Mr,NOT SURVIVED
+93,94,"Dean, Mr. Bertram Frank",male,26,20.575,S,3,1,2,0,Mr,NOT SURVIVED
+94,95,"Coxon, Mr. Daniel",male,59,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+95,96,"Shorney, Mr. Charles Joseph",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+96,97,"Goldschmidt, Mr. George B",male,71,34.6542,C,1,0,0,0,Mr,NOT SURVIVED
+97,98,"Greenfield, Mr. William Bertram",male,23,63.3583,C,1,0,1,1,Mr,SURVIVED
+98,99,"Doling, Mrs. John T (Ada Julia Bone)",female,34,23,S,2,0,1,1,Mrs,SURVIVED
+99,100,"Kantor, Mr. Sinai",male,34,26,S,2,1,0,0,Mr,NOT SURVIVED
+100,101,"Petranec, Miss. Matilda",female,28,7.8958,S,3,0,0,0,Miss,NOT SURVIVED
+101,102,"Petroff, Mr. Pastcho (""Pentcho"")",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+102,103,"White, Mr. Richard Frasar",male,21,77.2875,S,1,0,1,0,Mr,NOT SURVIVED
+103,104,"Johansson, Mr. Gustaf Joel",male,33,8.6542,S,3,0,0,0,Mr,NOT SURVIVED
+104,105,"Gustafsson, Mr. Anders Vilhelm",male,37,7.925,S,3,2,0,0,Mr,NOT SURVIVED
+105,106,"Mionoff, Mr. Stoytcho",male,28,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+106,107,"Salkjelsvik, Miss. Anna Kristine",female,21,7.65,S,3,0,0,1,Miss,SURVIVED
+107,108,"Moss, Mr. Albert Johan",male,30,7.775,S,3,0,0,1,Mr,SURVIVED
+108,109,"Rekic, Mr. Tido",male,38,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+109,110,"Moran, Miss. Bertha",female,21,24.15,Q,3,1,0,1,Miss,SURVIVED
+110,111,"Porter, Mr. Walter Chamberlain",male,47,52,S,1,0,0,0,Mr,NOT SURVIVED
+111,112,"Zabour, Miss. Hileni",female,14.5,14.4542,C,3,1,0,0,Miss,NOT SURVIVED
+112,113,"Barton, Mr. David John",male,22,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+113,114,"Jussila, Miss. Katriina",female,20,9.825,S,3,1,0,0,Miss,NOT SURVIVED
+114,115,"Attalah, Miss. Malake",female,17,14.4583,C,3,0,0,0,Miss,NOT SURVIVED
+115,116,"Pekoniemi, Mr. Edvard",male,21,7.925,S,3,0,0,0,Mr,NOT SURVIVED
+116,117,"Connors, Mr. Patrick",male,70.5,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+117,118,"Turpin, Mr. William John Robert",male,29,21,S,2,1,0,0,Mr,NOT SURVIVED
+118,119,"Baxter, Mr. Quigg Edmond",male,24,247.5208,C,1,0,1,0,Mr,NOT SURVIVED
+119,120,"Andersson, Miss. Ellis Anna Maria",female,2,31.275,S,3,4,2,0,Miss,NOT SURVIVED
+120,121,"Hickman, Mr. Stanley George",male,21,73.5,S,2,2,0,0,Mr,NOT SURVIVED
+121,122,"Moore, Mr. Leonard Charles",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+122,123,"Nasser, Mr. Nicholas",male,32.5,30.0708,C,2,1,0,0,Mr,NOT SURVIVED
+123,124,"Webber, Miss. Susan",female,32.5,13,S,2,0,0,1,Miss,SURVIVED
+124,125,"White, Mr. Percival Wayland",male,54,77.2875,S,1,0,1,0,Mr,NOT SURVIVED
+125,126,"Nicola-Yarred, Master. Elias",male,12,11.2417,C,3,1,0,1,Master,SURVIVED
+126,127,"McMahon, Mr. Martin",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+127,128,"Madsen, Mr. Fridtjof Arne",male,24,7.1417,S,3,0,0,1,Mr,SURVIVED
+128,129,"Peter, Miss. Anna",female,21,22.3583,C,3,1,1,1,Miss,SURVIVED
+129,130,"Ekstrom, Mr. Johan",male,45,6.975,S,3,0,0,0,Mr,NOT SURVIVED
+130,131,"Drazenoic, Mr. Jozef",male,33,7.8958,C,3,0,0,0,Mr,NOT SURVIVED
+131,132,"Coelho, Mr. Domingos Fernandeo",male,20,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+132,133,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47,14.5,S,3,1,0,0,Mrs,NOT SURVIVED
+133,134,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29,26,S,2,1,0,1,Mrs,SURVIVED
+134,135,"Sobey, Mr. Samuel James Hayden",male,25,13,S,2,0,0,0,Mr,NOT SURVIVED
+135,136,"Richard, Mr. Emile",male,23,15.0458,C,2,0,0,0,Mr,NOT SURVIVED
+136,137,"Newsom, Miss. Helen Monypeny",female,19,26.2833,S,1,0,2,1,Miss,SURVIVED
+137,138,"Futrelle, Mr. Jacques Heath",male,37,53.1,S,1,1,0,0,Mr,NOT SURVIVED
+138,139,"Osen, Mr. Olaf Elon",male,16,9.2167,S,3,0,0,0,Mr,NOT SURVIVED
+139,140,"Giglio, Mr. Victor",male,24,79.2,C,1,0,0,0,Mr,NOT SURVIVED
+140,141,"Boulos, Mrs. Joseph (Sultana)",female,35,15.2458,C,3,0,2,0,Mrs,NOT SURVIVED
+141,142,"Nysten, Miss. Anna Sofia",female,22,7.75,S,3,0,0,1,Miss,SURVIVED
+142,143,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24,15.85,S,3,1,0,1,Mrs,SURVIVED
+143,144,"Burke, Mr. Jeremiah",male,19,6.75,Q,3,0,0,0,Mr,NOT SURVIVED
+144,145,"Andrew, Mr. Edgardo Samuel",male,18,11.5,S,2,0,0,0,Mr,NOT SURVIVED
+145,146,"Nicholls, Mr. Joseph Charles",male,19,36.75,S,2,1,1,0,Mr,NOT SURVIVED
+146,147,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27,7.7958,S,3,0,0,1,Mr,SURVIVED
+147,148,"Ford, Miss. Robina Maggie ""Ruby""",female,9,34.375,S,3,2,2,0,Miss,NOT SURVIVED
+148,149,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,26,S,2,0,2,0,Mr,NOT SURVIVED
+149,150,"Byles, Rev. Thomas Roussel Davids",male,42,13,S,2,0,0,0,Officer,NOT SURVIVED
+150,151,"Bateman, Rev. Robert James",male,51,12.525,S,2,0,0,0,Officer,NOT SURVIVED
+151,152,"Pears, Mrs. Thomas (Edith Wearne)",female,22,66.6,S,1,1,0,1,Mrs,SURVIVED
+152,153,"Meo, Mr. Alfonzo",male,55.5,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+153,154,"van Billiard, Mr. Austin Blyler",male,40.5,14.5,S,3,0,2,0,Mr,NOT SURVIVED
+154,155,"Olsen, Mr. Ole Martin",male,30,7.3125,S,3,0,0,0,Mr,NOT SURVIVED
+155,156,"Williams, Mr. Charles Duane",male,51,61.3792,C,1,0,1,0,Mr,NOT SURVIVED
+156,157,"Gilnagh, Miss. Katherine ""Katie""",female,16,7.7333,Q,3,0,0,1,Miss,SURVIVED
+157,158,"Corn, Mr. Harry",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+158,159,"Smiljanic, Mr. Mile",male,30,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+159,160,"Sage, Master. Thomas Henry",male,3.5,69.55,S,3,8,2,0,Master,NOT SURVIVED
+160,161,"Cribb, Mr. John Hatfield",male,44,16.1,S,3,0,1,0,Mr,NOT SURVIVED
+161,162,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40,15.75,S,2,0,0,1,Mrs,SURVIVED
+162,163,"Bengtsson, Mr. John Viktor",male,26,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+163,164,"Calic, Mr. Jovo",male,17,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+164,165,"Panula, Master. Eino Viljami",male,1,39.6875,S,3,4,1,0,Master,NOT SURVIVED
+165,166,"Goldsmith, Master. Frank John William ""Frankie""",male,9,20.525,S,3,0,2,1,Master,SURVIVED
+166,167,"Chibnall, Mrs. (Edith Martha Bowerman)",female,35,55,S,1,0,1,1,Mrs,SURVIVED
+167,168,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45,27.9,S,3,1,4,0,Mrs,NOT SURVIVED
+168,169,"Baumann, Mr. John D",male,30,25.925,S,1,0,0,0,Mr,NOT SURVIVED
+169,170,"Ling, Mr. Lee",male,28,56.4958,S,3,0,0,0,Mr,NOT SURVIVED
+170,171,"Van der hoef, Mr. Wyckoff",male,61,33.5,S,1,0,0,0,Mr,NOT SURVIVED
+171,172,"Rice, Master. Arthur",male,4,29.125,Q,3,4,1,0,Master,NOT SURVIVED
+172,173,"Johnson, Miss. Eleanor Ileen",female,1,11.1333,S,3,1,1,1,Miss,SURVIVED
+173,174,"Sivola, Mr. Antti Wilhelm",male,21,7.925,S,3,0,0,0,Mr,NOT SURVIVED
+174,175,"Smith, Mr. James Clinch",male,56,30.6958,C,1,0,0,0,Mr,NOT SURVIVED
+175,176,"Klasen, Mr. Klas Albin",male,18,7.8542,S,3,1,1,0,Mr,NOT SURVIVED
+176,177,"Lefebre, Master. Henry Forbes",male,3.5,25.4667,S,3,3,1,0,Master,NOT SURVIVED
+177,178,"Isham, Miss. Ann Elizabeth",female,50,28.7125,C,1,0,0,0,Miss,NOT SURVIVED
+178,179,"Hale, Mr. Reginald",male,30,13,S,2,0,0,0,Mr,NOT SURVIVED
+179,180,"Leonard, Mr. Lionel",male,36,0,S,3,0,0,0,Mr,NOT SURVIVED
+180,181,"Sage, Miss. Constance Gladys",female,21,69.55,S,3,8,2,0,Miss,NOT SURVIVED
+181,182,"Pernot, Mr. Rene",male,30,15.05,C,2,0,0,0,Mr,NOT SURVIVED
+182,183,"Asplund, Master. Clarence Gustaf Hugo",male,9,31.3875,S,3,4,2,0,Master,NOT SURVIVED
+183,184,"Becker, Master. Richard F",male,1,39,S,2,2,1,1,Master,SURVIVED
+184,185,"Kink-Heilmann, Miss. Luise Gretchen",female,4,22.025,S,3,0,2,1,Miss,SURVIVED
+185,186,"Rood, Mr. Hugh Roscoe",male,30,50,S,1,0,0,0,Mr,NOT SURVIVED
+186,187,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,35,15.5,Q,3,1,0,1,Mrs,SURVIVED
+187,188,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45,26.55,S,1,0,0,1,Mr,SURVIVED
+188,189,"Bourke, Mr. John",male,40,15.5,Q,3,1,1,0,Mr,NOT SURVIVED
+189,190,"Turcin, Mr. Stjepan",male,36,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+190,191,"Pinsky, Mrs. (Rosa)",female,32,13,S,2,0,0,1,Mrs,SURVIVED
+191,192,"Carbines, Mr. William",male,19,13,S,2,0,0,0,Mr,NOT SURVIVED
+192,193,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19,7.8542,S,3,1,0,1,Miss,SURVIVED
+193,194,"Navratil, Master. Michel M",male,3,26,S,2,1,1,1,Master,SURVIVED
+194,195,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,27.7208,C,1,0,0,1,Mrs,SURVIVED
+195,196,"Lurette, Miss. Elise",female,58,146.5208,C,1,0,0,1,Miss,SURVIVED
+196,197,"Mernagh, Mr. Robert",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+197,198,"Olsen, Mr. Karl Siegwart Andreas",male,42,8.4042,S,3,0,1,0,Mr,NOT SURVIVED
+198,199,"Madigan, Miss. Margaret ""Maggie""",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+199,200,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24,13,S,2,0,0,0,Miss,NOT SURVIVED
+200,201,"Vande Walle, Mr. Nestor Cyriel",male,28,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+201,202,"Sage, Mr. Frederick",male,30,69.55,S,3,8,2,0,Mr,NOT SURVIVED
+202,203,"Johanson, Mr. Jakob Alfred",male,34,6.4958,S,3,0,0,0,Mr,NOT SURVIVED
+203,204,"Youseff, Mr. Gerious",male,45.5,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+204,205,"Cohen, Mr. Gurshon ""Gus""",male,18,8.05,S,3,0,0,1,Mr,SURVIVED
+205,206,"Strom, Miss. Telma Matilda",female,2,10.4625,S,3,0,1,0,Miss,NOT SURVIVED
+206,207,"Backstrom, Mr. Karl Alfred",male,32,15.85,S,3,1,0,0,Mr,NOT SURVIVED
+207,208,"Albimona, Mr. Nassef Cassem",male,26,18.7875,C,3,0,0,1,Mr,SURVIVED
+208,209,"Carr, Miss. Helen ""Ellen""",female,16,7.75,Q,3,0,0,1,Miss,SURVIVED
+209,210,"Blank, Mr. Henry",male,40,31,C,1,0,0,1,Mr,SURVIVED
+210,211,"Ali, Mr. Ahmed",male,24,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+211,212,"Cameron, Miss. Clear Annie",female,35,21,S,2,0,0,1,Miss,SURVIVED
+212,213,"Perkin, Mr. John Henry",male,22,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+213,214,"Givard, Mr. Hans Kristensen",male,30,13,S,2,0,0,0,Mr,NOT SURVIVED
+214,215,"Kiernan, Mr. Philip",male,30,7.75,Q,3,1,0,0,Mr,NOT SURVIVED
+215,216,"Newell, Miss. Madeleine",female,31,113.275,C,1,1,0,1,Miss,SURVIVED
+216,217,"Honkanen, Miss. Eliina",female,27,7.925,S,3,0,0,1,Miss,SURVIVED
+217,218,"Jacobsohn, Mr. Sidney Samuel",male,42,27,S,2,1,0,0,Mr,NOT SURVIVED
+218,219,"Bazzani, Miss. Albina",female,32,76.2917,C,1,0,0,1,Miss,SURVIVED
+219,220,"Harris, Mr. Walter",male,30,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+220,221,"Sunderland, Mr. Victor Francis",male,16,8.05,S,3,0,0,1,Mr,SURVIVED
+221,222,"Bracken, Mr. James H",male,27,13,S,2,0,0,0,Mr,NOT SURVIVED
+222,223,"Green, Mr. George Henry",male,51,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+223,224,"Nenkoff, Mr. Christo",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+224,225,"Hoyt, Mr. Frederick Maxfield",male,38,90,S,1,1,0,1,Mr,SURVIVED
+225,226,"Berglund, Mr. Karl Ivar Sven",male,22,9.35,S,3,0,0,0,Mr,NOT SURVIVED
+226,227,"Mellors, Mr. William John",male,19,10.5,S,2,0,0,1,Mr,SURVIVED
+227,228,"Lovell, Mr. John Hall (""Henry"")",male,20.5,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+228,229,"Fahlstrom, Mr. Arne Jonas",male,18,13,S,2,0,0,0,Mr,NOT SURVIVED
+229,230,"Lefebre, Miss. Mathilde",female,21,25.4667,S,3,3,1,0,Miss,NOT SURVIVED
+230,231,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,83.475,S,1,1,0,1,Mrs,SURVIVED
+231,232,"Larsson, Mr. Bengt Edvin",male,29,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+232,233,"Sjostedt, Mr. Ernst Adolf",male,59,13.5,S,2,0,0,0,Mr,NOT SURVIVED
+233,234,"Asplund, Miss. Lillian Gertrud",female,5,31.3875,S,3,4,2,1,Miss,SURVIVED
+234,235,"Leyson, Mr. Robert William Norman",male,24,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+235,236,"Harknett, Miss. Alice Phoebe",female,21,7.55,S,3,0,0,0,Miss,NOT SURVIVED
+236,237,"Hold, Mr. Stephen",male,44,26,S,2,1,0,0,Mr,NOT SURVIVED
+237,238,"Collyer, Miss. Marjorie ""Lottie""",female,8,26.25,S,2,0,2,1,Miss,SURVIVED
+238,239,"Pengelly, Mr. Frederick William",male,19,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+239,240,"Hunt, Mr. George Henry",male,33,12.275,S,2,0,0,0,Mr,NOT SURVIVED
+240,241,"Zabour, Miss. Thamine",female,21,14.4542,C,3,1,0,0,Miss,NOT SURVIVED
+241,242,"Murphy, Miss. Katherine ""Kate""",female,21,15.5,Q,3,1,0,1,Miss,SURVIVED
+242,243,"Coleridge, Mr. Reginald Charles",male,29,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+243,244,"Maenpaa, Mr. Matti Alexanteri",male,22,7.125,S,3,0,0,0,Mr,NOT SURVIVED
+244,245,"Attalah, Mr. Sleiman",male,30,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+245,246,"Minahan, Dr. William Edward",male,44,90,Q,1,2,0,0,Officer,NOT SURVIVED
+246,247,"Lindahl, Miss. Agda Thorilda Viktoria",female,25,7.775,S,3,0,0,0,Miss,NOT SURVIVED
+247,248,"Hamalainen, Mrs. William (Anna)",female,24,14.5,S,2,0,2,1,Mrs,SURVIVED
+248,249,"Beckwith, Mr. Richard Leonard",male,37,52.5542,S,1,1,1,1,Mr,SURVIVED
+249,250,"Carter, Rev. Ernest Courtenay",male,54,26,S,2,1,0,0,Officer,NOT SURVIVED
+250,251,"Reed, Mr. James George",male,30,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+251,252,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29,10.4625,S,3,1,1,0,Mrs,NOT SURVIVED
+252,253,"Stead, Mr. William Thomas",male,62,26.55,S,1,0,0,0,Mr,NOT SURVIVED
+253,254,"Lobb, Mr. William Arthur",male,30,16.1,S,3,1,0,0,Mr,NOT SURVIVED
+254,255,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41,20.2125,S,3,0,2,0,Mrs,NOT SURVIVED
+255,256,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29,15.2458,C,3,0,2,1,Mrs,SURVIVED
+256,257,"Thorne, Mrs. Gertrude Maybelle",female,35,79.2,C,1,0,0,1,Mrs,SURVIVED
+257,258,"Cherry, Miss. Gladys",female,30,86.5,S,1,0,0,1,Miss,SURVIVED
+258,259,"Ward, Miss. Anna",female,35,512.3292,C,1,0,0,1,Miss,SURVIVED
+259,260,"Parrish, Mrs. (Lutie Davis)",female,50,26,S,2,0,1,1,Mrs,SURVIVED
+260,261,"Smith, Mr. Thomas",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+261,262,"Asplund, Master. Edvin Rojj Felix",male,3,31.3875,S,3,4,2,1,Master,SURVIVED
+262,263,"Taussig, Mr. Emil",male,52,79.65,S,1,1,1,0,Mr,NOT SURVIVED
+263,264,"Harrison, Mr. William",male,40,0,S,1,0,0,0,Mr,NOT SURVIVED
+264,265,"Henry, Miss. Delia",female,21,7.75,Q,3,0,0,0,Miss,NOT SURVIVED
+265,266,"Reeves, Mr. David",male,36,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+266,267,"Panula, Mr. Ernesti Arvid",male,16,39.6875,S,3,4,1,0,Mr,NOT SURVIVED
+267,268,"Persson, Mr. Ernst Ulrik",male,25,7.775,S,3,1,0,1,Mr,SURVIVED
+268,269,"Graham, Mrs. William Thompson (Edith Junkins)",female,58,153.4625,S,1,0,1,1,Mrs,SURVIVED
+269,270,"Bissette, Miss. Amelia",female,35,135.6333,S,1,0,0,1,Miss,SURVIVED
+270,271,"Cairns, Mr. Alexander",male,30,31,S,1,0,0,0,Mr,NOT SURVIVED
+271,272,"Tornquist, Mr. William Henry",male,25,0,S,3,0,0,1,Mr,SURVIVED
+272,273,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41,19.5,S,2,0,1,1,Mrs,SURVIVED
+273,274,"Natsch, Mr. Charles H",male,37,29.7,C,1,0,1,0,Mr,NOT SURVIVED
+274,275,"Healy, Miss. Hanora ""Nora""",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+275,276,"Andrews, Miss. Kornelia Theodosia",female,63,77.9583,S,1,1,0,1,Miss,SURVIVED
+276,277,"Lindblom, Miss. Augusta Charlotta",female,45,7.75,S,3,0,0,0,Miss,NOT SURVIVED
+277,278,"Parkes, Mr. Francis ""Frank""",male,30,0,S,2,0,0,0,Mr,NOT SURVIVED
+278,279,"Rice, Master. Eric",male,7,29.125,Q,3,4,1,0,Master,NOT SURVIVED
+279,280,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35,20.25,S,3,1,1,1,Mrs,SURVIVED
+280,281,"Duane, Mr. Frank",male,65,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+281,282,"Olsson, Mr. Nils Johan Goransson",male,28,7.8542,S,3,0,0,0,Mr,NOT SURVIVED
+282,283,"de Pelsmaeker, Mr. Alfons",male,16,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+283,284,"Dorking, Mr. Edward Arthur",male,19,8.05,S,3,0,0,1,Mr,SURVIVED
+284,285,"Smith, Mr. Richard William",male,30,26,S,1,0,0,0,Mr,NOT SURVIVED
+285,286,"Stankovic, Mr. Ivan",male,33,8.6625,C,3,0,0,0,Mr,NOT SURVIVED
+286,287,"de Mulder, Mr. Theodore",male,30,9.5,S,3,0,0,1,Mr,SURVIVED
+287,288,"Naidenoff, Mr. Penko",male,22,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+288,289,"Hosono, Mr. Masabumi",male,42,13,S,2,0,0,1,Mr,SURVIVED
+289,290,"Connolly, Miss. Kate",female,22,7.75,Q,3,0,0,1,Miss,SURVIVED
+290,291,"Barber, Miss. Ellen ""Nellie""",female,26,78.85,S,1,0,0,1,Miss,SURVIVED
+291,292,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,91.0792,C,1,1,0,1,Mrs,SURVIVED
+292,293,"Levy, Mr. Rene Jacques",male,36,12.875,C,2,0,0,0,Mr,NOT SURVIVED
+293,294,"Haas, Miss. Aloisia",female,24,8.85,S,3,0,0,0,Miss,NOT SURVIVED
+294,295,"Mineff, Mr. Ivan",male,24,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+295,296,"Lewy, Mr. Ervin G",male,30,27.7208,C,1,0,0,0,Mr,NOT SURVIVED
+296,297,"Hanna, Mr. Mansour",male,23.5,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+297,298,"Allison, Miss. Helen Loraine",female,2,151.55,S,1,1,2,0,Miss,NOT SURVIVED
+298,299,"Saalfeld, Mr. Adolphe",male,30,30.5,S,1,0,0,1,Mr,SURVIVED
+299,300,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50,247.5208,C,1,0,1,1,Mrs,SURVIVED
+300,301,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+301,302,"McCoy, Mr. Bernard",male,30,23.25,Q,3,2,0,1,Mr,SURVIVED
+302,303,"Johnson, Mr. William Cahoone Jr",male,19,0,S,3,0,0,0,Mr,NOT SURVIVED
+303,304,"Keane, Miss. Nora A",female,21,12.35,Q,2,0,0,1,Miss,SURVIVED
+304,305,"Williams, Mr. Howard Hugh ""Harry""",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+305,306,"Allison, Master. Hudson Trevor",male,0.92,151.55,S,1,1,2,1,Master,SURVIVED
+306,307,"Fleming, Miss. Margaret",female,21,110.8833,C,1,0,0,1,Miss,SURVIVED
+307,308,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,108.9,C,1,1,0,1,Mrs,SURVIVED
+308,309,"Abelson, Mr. Samuel",male,30,24,C,2,1,0,0,Mr,NOT SURVIVED
+309,310,"Francatelli, Miss. Laura Mabel",female,30,56.9292,C,1,0,0,1,Miss,SURVIVED
+310,311,"Hays, Miss. Margaret Bechstein",female,24,83.1583,C,1,0,0,1,Miss,SURVIVED
+311,312,"Ryerson, Miss. Emily Borie",female,18,262.375,C,1,2,2,1,Miss,SURVIVED
+312,313,"Lahtinen, Mrs. William (Anna Sylfven)",female,26,26,S,2,1,1,0,Mrs,NOT SURVIVED
+313,314,"Hendekovic, Mr. Ignjac",male,28,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+314,315,"Hart, Mr. Benjamin",male,43,26.25,S,2,1,1,0,Mr,NOT SURVIVED
+315,316,"Nilsson, Miss. Helmina Josefina",female,26,7.8542,S,3,0,0,1,Miss,SURVIVED
+316,317,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24,26,S,2,1,0,1,Mrs,SURVIVED
+317,318,"Moraweck, Dr. Ernest",male,54,14,S,2,0,0,0,Officer,NOT SURVIVED
+318,319,"Wick, Miss. Mary Natalie",female,31,164.8667,S,1,0,2,1,Miss,SURVIVED
+319,320,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,134.5,C,1,1,1,1,Mrs,SURVIVED
+320,321,"Dennis, Mr. Samuel",male,22,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+321,322,"Danoff, Mr. Yoto",male,27,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+322,323,"Slayter, Miss. Hilda Mary",female,30,12.35,Q,2,0,0,1,Miss,SURVIVED
+323,324,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22,29,S,2,1,1,1,Mrs,SURVIVED
+324,325,"Sage, Mr. George John Jr",male,30,69.55,S,3,8,2,0,Mr,NOT SURVIVED
+325,326,"Young, Miss. Marie Grice",female,36,135.6333,C,1,0,0,1,Miss,SURVIVED
+326,327,"Nysveen, Mr. Johan Hansen",male,61,6.2375,S,3,0,0,0,Mr,NOT SURVIVED
+327,328,"Ball, Mrs. (Ada E Hall)",female,36,13,S,2,0,0,1,Mrs,SURVIVED
+328,329,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31,20.525,S,3,1,1,1,Mrs,SURVIVED
+329,330,"Hippach, Miss. Jean Gertrude",female,16,57.9792,C,1,0,1,1,Miss,SURVIVED
+330,331,"McCoy, Miss. Agnes",female,21,23.25,Q,3,2,0,1,Miss,SURVIVED
+331,332,"Partner, Mr. Austen",male,45.5,28.5,S,1,0,0,0,Mr,NOT SURVIVED
+332,333,"Graham, Mr. George Edward",male,38,153.4625,S,1,0,1,0,Mr,NOT SURVIVED
+333,334,"Vander Planke, Mr. Leo Edmondus",male,16,18,S,3,2,0,0,Mr,NOT SURVIVED
+334,335,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,35,133.65,S,1,1,0,1,Mrs,SURVIVED
+335,336,"Denkoff, Mr. Mitto",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+336,337,"Pears, Mr. Thomas Clinton",male,29,66.6,S,1,1,0,0,Mr,NOT SURVIVED
+337,338,"Burns, Miss. Elizabeth Margaret",female,41,134.5,C,1,0,0,1,Miss,SURVIVED
+338,339,"Dahl, Mr. Karl Edwart",male,45,8.05,S,3,0,0,1,Mr,SURVIVED
+339,340,"Blackwell, Mr. Stephen Weart",male,45,35.5,S,1,0,0,0,Mr,NOT SURVIVED
+340,341,"Navratil, Master. Edmond Roger",male,2,26,S,2,1,1,1,Master,SURVIVED
+341,342,"Fortune, Miss. Alice Elizabeth",female,24,263,S,1,3,2,1,Miss,SURVIVED
+342,343,"Collander, Mr. Erik Gustaf",male,28,13,S,2,0,0,0,Mr,NOT SURVIVED
+343,344,"Sedgwick, Mr. Charles Frederick Waddington",male,25,13,S,2,0,0,0,Mr,NOT SURVIVED
+344,345,"Fox, Mr. Stanley Hubert",male,36,13,S,2,0,0,0,Mr,NOT SURVIVED
+345,346,"Brown, Miss. Amelia ""Mildred""",female,24,13,S,2,0,0,1,Miss,SURVIVED
+346,347,"Smith, Miss. Marion Elsie",female,40,13,S,2,0,0,1,Miss,SURVIVED
+347,348,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,35,16.1,S,3,1,0,1,Mrs,SURVIVED
+348,349,"Coutts, Master. William Loch ""William""",male,3,15.9,S,3,1,1,1,Master,SURVIVED
+349,350,"Dimic, Mr. Jovan",male,42,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+350,351,"Odahl, Mr. Nils Martin",male,23,9.225,S,3,0,0,0,Mr,NOT SURVIVED
+351,352,"Williams-Lambert, Mr. Fletcher Fellows",male,30,35,S,1,0,0,0,Mr,NOT SURVIVED
+352,353,"Elias, Mr. Tannous",male,15,7.2292,C,3,1,1,0,Mr,NOT SURVIVED
+353,354,"Arnold-Franchi, Mr. Josef",male,25,17.8,S,3,1,0,0,Mr,NOT SURVIVED
+354,355,"Yousif, Mr. Wazli",male,30,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+355,356,"Vanden Steen, Mr. Leo Peter",male,28,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+356,357,"Bowerman, Miss. Elsie Edith",female,22,55,S,1,0,1,1,Miss,SURVIVED
+357,358,"Funk, Miss. Annie Clemmer",female,38,13,S,2,0,0,0,Miss,NOT SURVIVED
+358,359,"McGovern, Miss. Mary",female,21,7.8792,Q,3,0,0,1,Miss,SURVIVED
+359,360,"Mockler, Miss. Helen Mary ""Ellie""",female,21,7.8792,Q,3,0,0,1,Miss,SURVIVED
+360,361,"Skoog, Mr. Wilhelm",male,40,27.9,S,3,1,4,0,Mr,NOT SURVIVED
+361,362,"del Carlo, Mr. Sebastiano",male,29,27.7208,C,2,1,0,0,Mr,NOT SURVIVED
+362,363,"Barbara, Mrs. (Catherine David)",female,45,14.4542,C,3,0,1,0,Mrs,NOT SURVIVED
+363,364,"Asim, Mr. Adola",male,35,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+364,365,"O'Brien, Mr. Thomas",male,30,15.5,Q,3,1,0,0,Mr,NOT SURVIVED
+365,366,"Adahl, Mr. Mauritz Nils Martin",male,30,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+366,367,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60,75.25,C,1,1,0,1,Mrs,SURVIVED
+367,368,"Moussa, Mrs. (Mantoura Boulos)",female,35,7.2292,C,3,0,0,1,Mrs,SURVIVED
+368,369,"Jermyn, Miss. Annie",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+369,370,"Aubart, Mme. Leontine Pauline",female,24,69.3,C,1,0,0,1,Mrs,SURVIVED
+370,371,"Harder, Mr. George Achilles",male,25,55.4417,C,1,1,0,1,Mr,SURVIVED
+371,372,"Wiklund, Mr. Jakob Alfred",male,18,6.4958,S,3,1,0,0,Mr,NOT SURVIVED
+372,373,"Beavan, Mr. William Thomas",male,19,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+373,374,"Ringhini, Mr. Sante",male,22,135.6333,C,1,0,0,0,Mr,NOT SURVIVED
+374,375,"Palsson, Miss. Stina Viola",female,3,21.075,S,3,3,1,0,Miss,NOT SURVIVED
+375,376,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,35,82.1708,C,1,1,0,1,Mrs,SURVIVED
+376,377,"Landergren, Miss. Aurora Adelia",female,22,7.25,S,3,0,0,1,Miss,SURVIVED
+377,378,"Widener, Mr. Harry Elkins",male,27,211.5,C,1,0,2,0,Mr,NOT SURVIVED
+378,379,"Betros, Mr. Tannous",male,20,4.0125,C,3,0,0,0,Mr,NOT SURVIVED
+379,380,"Gustafsson, Mr. Karl Gideon",male,19,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+380,381,"Bidois, Miss. Rosalie",female,42,227.525,C,1,0,0,1,Miss,SURVIVED
+381,382,"Nakid, Miss. Maria (""Mary"")",female,1,15.7417,C,3,0,2,1,Miss,SURVIVED
+382,383,"Tikkanen, Mr. Juho",male,32,7.925,S,3,0,0,0,Mr,NOT SURVIVED
+383,384,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,52,S,1,1,0,1,Mrs,SURVIVED
+384,385,"Plotcharsky, Mr. Vasil",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+385,386,"Davies, Mr. Charles Henry",male,18,73.5,S,2,0,0,0,Mr,NOT SURVIVED
+386,387,"Goodwin, Master. Sidney Leonard",male,1,46.9,S,3,5,2,0,Master,NOT SURVIVED
+387,388,"Buss, Miss. Kate",female,36,13,S,2,0,0,1,Miss,SURVIVED
+388,389,"Sadlier, Mr. Matthew",male,30,7.7292,Q,3,0,0,0,Mr,NOT SURVIVED
+389,390,"Lehmann, Miss. Bertha",female,17,12,C,2,0,0,1,Miss,SURVIVED
+390,391,"Carter, Mr. William Ernest",male,36,120,S,1,1,2,1,Mr,SURVIVED
+391,392,"Jansson, Mr. Carl Olof",male,21,7.7958,S,3,0,0,1,Mr,SURVIVED
+392,393,"Gustafsson, Mr. Johan Birger",male,28,7.925,S,3,2,0,0,Mr,NOT SURVIVED
+393,394,"Newell, Miss. Marjorie",female,23,113.275,C,1,1,0,1,Miss,SURVIVED
+394,395,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24,16.7,S,3,0,2,1,Mrs,SURVIVED
+395,396,"Johansson, Mr. Erik",male,22,7.7958,S,3,0,0,0,Mr,NOT SURVIVED
+396,397,"Olsson, Miss. Elina",female,31,7.8542,S,3,0,0,0,Miss,NOT SURVIVED
+397,398,"McKane, Mr. Peter David",male,46,26,S,2,0,0,0,Mr,NOT SURVIVED
+398,399,"Pain, Dr. Alfred",male,23,10.5,S,2,0,0,0,Officer,NOT SURVIVED
+399,400,"Trout, Mrs. William H (Jessie L)",female,28,12.65,S,2,0,0,1,Mrs,SURVIVED
+400,401,"Niskanen, Mr. Juha",male,39,7.925,S,3,0,0,1,Mr,SURVIVED
+401,402,"Adams, Mr. John",male,26,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+402,403,"Jussila, Miss. Mari Aina",female,21,9.825,S,3,1,0,0,Miss,NOT SURVIVED
+403,404,"Hakkarainen, Mr. Pekka Pietari",male,28,15.85,S,3,1,0,0,Mr,NOT SURVIVED
+404,405,"Oreskovic, Miss. Marija",female,20,8.6625,S,3,0,0,0,Miss,NOT SURVIVED
+405,406,"Gale, Mr. Shadrach",male,34,21,S,2,1,0,0,Mr,NOT SURVIVED
+406,407,"Widegren, Mr. Carl/Charles Peter",male,51,7.75,S,3,0,0,0,Mr,NOT SURVIVED
+407,408,"Richards, Master. William Rowe",male,3,18.75,S,2,1,1,1,Master,SURVIVED
+408,409,"Birkeland, Mr. Hans Martin Monsen",male,21,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+409,410,"Lefebre, Miss. Ida",female,21,25.4667,S,3,3,1,0,Miss,NOT SURVIVED
+410,411,"Sdycoff, Mr. Todor",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+411,412,"Hart, Mr. Henry",male,30,6.8583,Q,3,0,0,0,Mr,NOT SURVIVED
+412,413,"Minahan, Miss. Daisy E",female,33,90,Q,1,1,0,1,Miss,SURVIVED
+413,414,"Cunningham, Mr. Alfred Fleming",male,30,0,S,2,0,0,0,Mr,NOT SURVIVED
+414,415,"Sundman, Mr. Johan Julian",male,44,7.925,S,3,0,0,1,Mr,SURVIVED
+415,416,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,35,8.05,S,3,0,0,0,Mrs,NOT SURVIVED
+416,417,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34,32.5,S,2,1,1,1,Mrs,SURVIVED
+417,418,"Silven, Miss. Lyyli Karoliina",female,18,13,S,2,0,2,1,Miss,SURVIVED
+418,419,"Matthews, Mr. William John",male,30,13,S,2,0,0,0,Mr,NOT SURVIVED
+419,420,"Van Impe, Miss. Catharina",female,10,24.15,S,3,0,2,0,Miss,NOT SURVIVED
+420,421,"Gheorgheff, Mr. Stanio",male,30,7.8958,C,3,0,0,0,Mr,NOT SURVIVED
+421,422,"Charters, Mr. David",male,21,7.7333,Q,3,0,0,0,Mr,NOT SURVIVED
+422,423,"Zimmerman, Mr. Leo",male,29,7.875,S,3,0,0,0,Mr,NOT SURVIVED
+423,424,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,14.4,S,3,1,1,0,Mrs,NOT SURVIVED
+424,425,"Rosblom, Mr. Viktor Richard",male,18,20.2125,S,3,1,1,0,Mr,NOT SURVIVED
+425,426,"Wiseman, Mr. Phillippe",male,30,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+426,427,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28,26,S,2,1,0,1,Mrs,SURVIVED
+427,428,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19,26,S,2,0,0,1,Miss,SURVIVED
+428,429,"Flynn, Mr. James",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+429,430,"Pickard, Mr. Berk (Berk Trembisky)",male,32,8.05,S,3,0,0,1,Mr,SURVIVED
+430,431,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28,26.55,S,1,0,0,1,Mr,SURVIVED
+431,432,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,35,16.1,S,3,1,0,1,Mrs,SURVIVED
+432,433,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42,26,S,2,1,0,1,Mrs,SURVIVED
+433,434,"Kallio, Mr. Nikolai Erland",male,17,7.125,S,3,0,0,0,Mr,NOT SURVIVED
+434,435,"Silvey, Mr. William Baird",male,50,55.9,S,1,1,0,0,Mr,NOT SURVIVED
+435,436,"Carter, Miss. Lucile Polk",female,14,120,S,1,1,2,1,Miss,SURVIVED
+436,437,"Ford, Miss. Doolina Margaret ""Daisy""",female,21,34.375,S,3,2,2,0,Miss,NOT SURVIVED
+437,438,"Richards, Mrs. Sidney (Emily Hocking)",female,24,18.75,S,2,2,3,1,Mrs,SURVIVED
+438,439,"Fortune, Mr. Mark",male,64,263,S,1,1,4,0,Mr,NOT SURVIVED
+439,440,"Kvillner, Mr. Johan Henrik Johannesson",male,31,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+440,441,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45,26.25,S,2,1,1,1,Mrs,SURVIVED
+441,442,"Hampe, Mr. Leon",male,20,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+442,443,"Petterson, Mr. Johan Emil",male,25,7.775,S,3,1,0,0,Mr,NOT SURVIVED
+443,444,"Reynaldo, Ms. Encarnacion",female,28,13,S,2,0,0,1,Miss,SURVIVED
+444,445,"Johannesen-Bratthammer, Mr. Bernt",male,30,8.1125,S,3,0,0,1,Mr,SURVIVED
+445,446,"Dodge, Master. Washington",male,4,81.8583,S,1,0,2,1,Master,SURVIVED
+446,447,"Mellinger, Miss. Madeleine Violet",female,13,19.5,S,2,0,1,1,Miss,SURVIVED
+447,448,"Seward, Mr. Frederic Kimber",male,34,26.55,S,1,0,0,1,Mr,SURVIVED
+448,449,"Baclini, Miss. Marie Catherine",female,5,19.2583,C,3,2,1,1,Miss,SURVIVED
+449,450,"Peuchen, Major. Arthur Godfrey",male,52,30.5,S,1,0,0,1,Officer,SURVIVED
+450,451,"West, Mr. Edwy Arthur",male,36,27.75,S,2,1,2,0,Mr,NOT SURVIVED
+451,452,"Hagland, Mr. Ingvald Olai Olsen",male,30,19.9667,S,3,1,0,0,Mr,NOT SURVIVED
+452,453,"Foreman, Mr. Benjamin Laventall",male,30,27.75,C,1,0,0,0,Mr,NOT SURVIVED
+453,454,"Goldenberg, Mr. Samuel L",male,49,89.1042,C,1,1,0,1,Mr,SURVIVED
+454,455,"Peduzzi, Mr. Joseph",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+455,456,"Jalsevac, Mr. Ivan",male,29,7.8958,C,3,0,0,1,Mr,SURVIVED
+456,457,"Millet, Mr. Francis Davis",male,65,26.55,S,1,0,0,0,Mr,NOT SURVIVED
+457,458,"Kenyon, Mrs. Frederick R (Marion)",female,35,51.8625,S,1,1,0,1,Mrs,SURVIVED
+458,459,"Toomey, Miss. Ellen",female,50,10.5,S,2,0,0,1,Miss,SURVIVED
+459,460,"O'Connor, Mr. Maurice",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+460,461,"Anderson, Mr. Harry",male,48,26.55,S,1,0,0,1,Mr,SURVIVED
+461,462,"Morley, Mr. William",male,34,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+462,463,"Gee, Mr. Arthur H",male,47,38.5,S,1,0,0,0,Mr,NOT SURVIVED
+463,464,"Milling, Mr. Jacob Christian",male,48,13,S,2,0,0,0,Mr,NOT SURVIVED
+464,465,"Maisner, Mr. Simon",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+465,466,"Goncalves, Mr. Manuel Estanslas",male,38,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+466,467,"Campbell, Mr. William",male,30,0,S,2,0,0,0,Mr,NOT SURVIVED
+467,468,"Smart, Mr. John Montgomery",male,56,26.55,S,1,0,0,0,Mr,NOT SURVIVED
+468,469,"Scanlan, Mr. James",male,30,7.725,Q,3,0,0,0,Mr,NOT SURVIVED
+469,470,"Baclini, Miss. Helene Barbara",female,0.75,19.2583,C,3,2,1,1,Miss,SURVIVED
+470,471,"Keefe, Mr. Arthur",male,30,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+471,472,"Cacic, Mr. Luka",male,38,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+472,473,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33,27.75,S,2,1,2,1,Mrs,SURVIVED
+473,474,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23,13.7917,C,2,0,0,1,Mrs,SURVIVED
+474,475,"Strandberg, Miss. Ida Sofia",female,22,9.8375,S,3,0,0,0,Miss,NOT SURVIVED
+475,476,"Clifford, Mr. George Quincy",male,30,52,S,1,0,0,0,Mr,NOT SURVIVED
+476,477,"Renouf, Mr. Peter Henry",male,34,21,S,2,1,0,0,Mr,NOT SURVIVED
+477,478,"Braund, Mr. Lewis Richard",male,29,7.0458,S,3,1,0,0,Mr,NOT SURVIVED
+478,479,"Karlsson, Mr. Nils August",male,22,7.5208,S,3,0,0,0,Mr,NOT SURVIVED
+479,480,"Hirvonen, Miss. Hildur E",female,2,12.2875,S,3,0,1,1,Miss,SURVIVED
+480,481,"Goodwin, Master. Harold Victor",male,9,46.9,S,3,5,2,0,Master,NOT SURVIVED
+481,482,"Frost, Mr. Anthony Wood ""Archie""",male,30,0,S,2,0,0,0,Mr,NOT SURVIVED
+482,483,"Rouse, Mr. Richard Henry",male,50,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+483,484,"Turkula, Mrs. (Hedwig)",female,63,9.5875,S,3,0,0,1,Mrs,SURVIVED
+484,485,"Bishop, Mr. Dickinson H",male,25,91.0792,C,1,1,0,1,Mr,SURVIVED
+485,486,"Lefebre, Miss. Jeannie",female,21,25.4667,S,3,3,1,0,Miss,NOT SURVIVED
+486,487,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,90,S,1,1,0,1,Mrs,SURVIVED
+487,488,"Kent, Mr. Edward Austin",male,58,29.7,C,1,0,0,0,Mr,NOT SURVIVED
+488,489,"Somerton, Mr. Francis William",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+489,490,"Coutts, Master. Eden Leslie ""Neville""",male,9,15.9,S,3,1,1,1,Master,SURVIVED
+490,491,"Hagland, Mr. Konrad Mathias Reiersen",male,30,19.9667,S,3,1,0,0,Mr,NOT SURVIVED
+491,492,"Windelov, Mr. Einar",male,21,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+492,493,"Molson, Mr. Harry Markland",male,55,30.5,S,1,0,0,0,Mr,NOT SURVIVED
+493,494,"Artagaveytia, Mr. Ramon",male,71,49.5042,C,1,0,0,0,Mr,NOT SURVIVED
+494,495,"Stanley, Mr. Edward Roland",male,21,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+495,496,"Yousseff, Mr. Gerious",male,30,14.4583,C,3,0,0,0,Mr,NOT SURVIVED
+496,497,"Eustis, Miss. Elizabeth Mussey",female,54,78.2667,C,1,1,0,1,Miss,SURVIVED
+497,498,"Shellard, Mr. Frederick William",male,30,15.1,S,3,0,0,0,Mr,NOT SURVIVED
+498,499,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,151.55,S,1,1,2,0,Mrs,NOT SURVIVED
+499,500,"Svensson, Mr. Olof",male,24,7.7958,S,3,0,0,0,Mr,NOT SURVIVED
+500,501,"Calic, Mr. Petar",male,17,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+501,502,"Canavan, Miss. Mary",female,21,7.75,Q,3,0,0,0,Miss,NOT SURVIVED
+502,503,"O'Sullivan, Miss. Bridget Mary",female,21,7.6292,Q,3,0,0,0,Miss,NOT SURVIVED
+503,504,"Laitinen, Miss. Kristina Sofia",female,37,9.5875,S,3,0,0,0,Miss,NOT SURVIVED
+504,505,"Maioni, Miss. Roberta",female,16,86.5,S,1,0,0,1,Miss,SURVIVED
+505,506,"Penasco y Castellana, Mr. Victor de Satode",male,18,108.9,C,1,1,0,0,Mr,NOT SURVIVED
+506,507,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33,26,S,2,0,2,1,Mrs,SURVIVED
+507,508,"Bradley, Mr. George (""George Arthur Brayton"")",male,30,26.55,S,1,0,0,1,Mr,SURVIVED
+508,509,"Olsen, Mr. Henry Margido",male,28,22.525,S,3,0,0,0,Mr,NOT SURVIVED
+509,510,"Lang, Mr. Fang",male,26,56.4958,S,3,0,0,1,Mr,SURVIVED
+510,511,"Daly, Mr. Eugene Patrick",male,29,7.75,Q,3,0,0,1,Mr,SURVIVED
+511,512,"Webber, Mr. James",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+512,513,"McGough, Mr. James Robert",male,36,26.2875,S,1,0,0,1,Mr,SURVIVED
+513,514,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54,59.4,C,1,1,0,1,Mrs,SURVIVED
+514,515,"Coleff, Mr. Satio",male,24,7.4958,S,3,0,0,0,Mr,NOT SURVIVED
+515,516,"Walker, Mr. William Anderson",male,47,34.0208,S,1,0,0,0,Mr,NOT SURVIVED
+516,517,"Lemore, Mrs. (Amelia Milley)",female,34,10.5,S,2,0,0,1,Mrs,SURVIVED
+517,518,"Ryan, Mr. Patrick",male,30,24.15,Q,3,0,0,0,Mr,NOT SURVIVED
+518,519,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36,26,S,2,1,0,1,Mrs,SURVIVED
+519,520,"Pavlovic, Mr. Stefo",male,32,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+520,521,"Perreault, Miss. Anne",female,30,93.5,S,1,0,0,1,Miss,SURVIVED
+521,522,"Vovk, Mr. Janko",male,22,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+522,523,"Lahoud, Mr. Sarkis",male,30,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+523,524,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,57.9792,C,1,0,1,1,Mrs,SURVIVED
+524,525,"Kassem, Mr. Fared",male,30,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+525,526,"Farrell, Mr. James",male,40.5,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+526,527,"Ridsdale, Miss. Lucy",female,50,10.5,S,2,0,0,1,Miss,SURVIVED
+527,528,"Farthing, Mr. John",male,30,221.7792,S,1,0,0,0,Mr,NOT SURVIVED
+528,529,"Salonen, Mr. Johan Werner",male,39,7.925,S,3,0,0,0,Mr,NOT SURVIVED
+529,530,"Hocking, Mr. Richard George",male,23,11.5,S,2,2,1,0,Mr,NOT SURVIVED
+530,531,"Quick, Miss. Phyllis May",female,2,26,S,2,1,1,1,Miss,SURVIVED
+531,532,"Toufik, Mr. Nakli",male,30,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+532,533,"Elias, Mr. Joseph Jr",male,17,7.2292,C,3,1,1,0,Mr,NOT SURVIVED
+533,534,"Peter, Mrs. Catherine (Catherine Rizk)",female,35,22.3583,C,3,0,2,1,Mrs,SURVIVED
+534,535,"Cacic, Miss. Marija",female,30,8.6625,S,3,0,0,0,Miss,NOT SURVIVED
+535,536,"Hart, Miss. Eva Miriam",female,7,26.25,S,2,0,2,1,Miss,SURVIVED
+536,537,"Butt, Major. Archibald Willingham",male,45,26.55,S,1,0,0,0,Officer,NOT SURVIVED
+537,538,"LeRoy, Miss. Bertha",female,30,106.425,C,1,0,0,1,Miss,SURVIVED
+538,539,"Risien, Mr. Samuel Beard",male,30,14.5,S,3,0,0,0,Mr,NOT SURVIVED
+539,540,"Frolicher, Miss. Hedwig Margaritha",female,22,49.5,C,1,0,2,1,Miss,SURVIVED
+540,541,"Crosby, Miss. Harriet R",female,36,71,S,1,0,2,1,Miss,SURVIVED
+541,542,"Andersson, Miss. Ingeborg Constanzia",female,9,31.275,S,3,4,2,0,Miss,NOT SURVIVED
+542,543,"Andersson, Miss. Sigrid Elisabeth",female,11,31.275,S,3,4,2,0,Miss,NOT SURVIVED
+543,544,"Beane, Mr. Edward",male,32,26,S,2,1,0,1,Mr,SURVIVED
+544,545,"Douglas, Mr. Walter Donald",male,50,106.425,C,1,1,0,0,Mr,NOT SURVIVED
+545,546,"Nicholson, Mr. Arthur Ernest",male,64,26,S,1,0,0,0,Mr,NOT SURVIVED
+546,547,"Beane, Mrs. Edward (Ethel Clarke)",female,19,26,S,2,1,0,1,Mrs,SURVIVED
+547,548,"Padro y Manent, Mr. Julian",male,30,13.8625,C,2,0,0,1,Mr,SURVIVED
+548,549,"Goldsmith, Mr. Frank John",male,33,20.525,S,3,1,1,0,Mr,NOT SURVIVED
+549,550,"Davies, Master. John Morgan Jr",male,8,36.75,S,2,1,1,1,Master,SURVIVED
+550,551,"Thayer, Mr. John Borland Jr",male,17,110.8833,C,1,0,2,1,Mr,SURVIVED
+551,552,"Sharp, Mr. Percival James R",male,27,26,S,2,0,0,0,Mr,NOT SURVIVED
+552,553,"O'Brien, Mr. Timothy",male,30,7.8292,Q,3,0,0,0,Mr,NOT SURVIVED
+553,554,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22,7.225,C,3,0,0,1,Mr,SURVIVED
+554,555,"Ohman, Miss. Velin",female,22,7.775,S,3,0,0,1,Miss,SURVIVED
+555,556,"Wright, Mr. George",male,62,26.55,S,1,0,0,0,Mr,NOT SURVIVED
+556,557,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48,39.6,C,1,1,0,1,Royalty,SURVIVED
+557,558,"Robbins, Mr. Victor",male,30,227.525,C,1,0,0,0,Mr,NOT SURVIVED
+558,559,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,79.65,S,1,1,1,1,Mrs,SURVIVED
+559,560,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36,17.4,S,3,1,0,1,Mrs,SURVIVED
+560,561,"Morrow, Mr. Thomas Rowan",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+561,562,"Sivic, Mr. Husein",male,40,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+562,563,"Norman, Mr. Robert Douglas",male,28,13.5,S,2,0,0,0,Mr,NOT SURVIVED
+563,564,"Simmons, Mr. John",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+564,565,"Meanwell, Miss. (Marion Ogden)",female,21,8.05,S,3,0,0,0,Miss,NOT SURVIVED
+565,566,"Davies, Mr. Alfred J",male,24,24.15,S,3,2,0,0,Mr,NOT SURVIVED
+566,567,"Stoytcheff, Mr. Ilia",male,19,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+567,568,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29,21.075,S,3,0,4,0,Mrs,NOT SURVIVED
+568,569,"Doharr, Mr. Tannous",male,30,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+569,570,"Jonsson, Mr. Carl",male,32,7.8542,S,3,0,0,1,Mr,SURVIVED
+570,571,"Harris, Mr. George",male,62,10.5,S,2,0,0,1,Mr,SURVIVED
+571,572,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53,51.4792,S,1,2,0,1,Mrs,SURVIVED
+572,573,"Flynn, Mr. John Irwin (""Irving"")",male,36,26.3875,S,1,0,0,1,Mr,SURVIVED
+573,574,"Kelly, Miss. Mary",female,21,7.75,Q,3,0,0,1,Miss,SURVIVED
+574,575,"Rush, Mr. Alfred George John",male,16,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+575,576,"Patchett, Mr. George",male,19,14.5,S,3,0,0,0,Mr,NOT SURVIVED
+576,577,"Garside, Miss. Ethel",female,34,13,S,2,0,0,1,Miss,SURVIVED
+577,578,"Silvey, Mrs. William Baird (Alice Munger)",female,39,55.9,S,1,1,0,1,Mrs,SURVIVED
+578,579,"Caram, Mrs. Joseph (Maria Elias)",female,35,14.4583,C,3,1,0,0,Mrs,NOT SURVIVED
+579,580,"Jussila, Mr. Eiriik",male,32,7.925,S,3,0,0,1,Mr,SURVIVED
+580,581,"Christy, Miss. Julie Rachel",female,25,30,S,2,1,1,1,Miss,SURVIVED
+581,582,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,110.8833,C,1,1,1,1,Mrs,SURVIVED
+582,583,"Downton, Mr. William James",male,54,26,S,2,0,0,0,Mr,NOT SURVIVED
+583,584,"Ross, Mr. John Hugo",male,36,40.125,C,1,0,0,0,Mr,NOT SURVIVED
+584,585,"Paulner, Mr. Uscher",male,30,8.7125,C,3,0,0,0,Mr,NOT SURVIVED
+585,586,"Taussig, Miss. Ruth",female,18,79.65,S,1,0,2,1,Miss,SURVIVED
+586,587,"Jarvis, Mr. John Denzil",male,47,15,S,2,0,0,0,Mr,NOT SURVIVED
+587,588,"Frolicher-Stehli, Mr. Maxmillian",male,60,79.2,C,1,1,1,1,Mr,SURVIVED
+588,589,"Gilinski, Mr. Eliezer",male,22,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+589,590,"Murdlin, Mr. Joseph",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+590,591,"Rintamaki, Mr. Matti",male,35,7.125,S,3,0,0,0,Mr,NOT SURVIVED
+591,592,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52,78.2667,C,1,1,0,1,Mrs,SURVIVED
+592,593,"Elsbury, Mr. William James",male,47,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+593,594,"Bourke, Miss. Mary",female,21,7.75,Q,3,0,2,0,Miss,NOT SURVIVED
+594,595,"Chapman, Mr. John Henry",male,37,26,S,2,1,0,0,Mr,NOT SURVIVED
+595,596,"Van Impe, Mr. Jean Baptiste",male,36,24.15,S,3,1,1,0,Mr,NOT SURVIVED
+596,597,"Leitch, Miss. Jessie Wills",female,21,33,S,2,0,0,1,Miss,SURVIVED
+597,598,"Johnson, Mr. Alfred",male,49,0,S,3,0,0,0,Mr,NOT SURVIVED
+598,599,"Boulos, Mr. Hanna",male,30,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+599,600,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49,56.9292,C,1,1,0,1,Royalty,SURVIVED
+600,601,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24,27,S,2,2,1,1,Mrs,SURVIVED
+601,602,"Slabenoff, Mr. Petco",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+602,603,"Harrington, Mr. Charles H",male,30,42.4,S,1,0,0,0,Mr,NOT SURVIVED
+603,604,"Torber, Mr. Ernst William",male,44,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+604,605,"Homer, Mr. Harry (""Mr E Haven"")",male,35,26.55,C,1,0,0,1,Mr,SURVIVED
+605,606,"Lindell, Mr. Edvard Bengtsson",male,36,15.55,S,3,1,0,0,Mr,NOT SURVIVED
+606,607,"Karaic, Mr. Milan",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+607,608,"Daniel, Mr. Robert Williams",male,27,30.5,S,1,0,0,1,Mr,SURVIVED
+608,609,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22,41.5792,C,2,1,2,1,Mrs,SURVIVED
+609,610,"Shutes, Miss. Elizabeth W",female,40,153.4625,S,1,0,0,1,Miss,SURVIVED
+610,611,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39,31.275,S,3,1,5,0,Mrs,NOT SURVIVED
+611,612,"Jardin, Mr. Jose Neto",male,30,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+612,613,"Murphy, Miss. Margaret Jane",female,21,15.5,Q,3,1,0,1,Miss,SURVIVED
+613,614,"Horgan, Mr. John",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+614,615,"Brocklebank, Mr. William Alfred",male,35,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+615,616,"Herman, Miss. Alice",female,24,65,S,2,1,2,1,Miss,SURVIVED
+616,617,"Danbom, Mr. Ernst Gilbert",male,34,14.4,S,3,1,1,0,Mr,NOT SURVIVED
+617,618,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26,16.1,S,3,1,0,0,Mrs,NOT SURVIVED
+618,619,"Becker, Miss. Marion Louise",female,4,39,S,2,2,1,1,Miss,SURVIVED
+619,620,"Gavey, Mr. Lawrence",male,26,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+620,621,"Yasbeck, Mr. Antoni",male,27,14.4542,C,3,1,0,0,Mr,NOT SURVIVED
+621,622,"Kimball, Mr. Edwin Nelson Jr",male,42,52.5542,S,1,1,0,1,Mr,SURVIVED
+622,623,"Nakid, Mr. Sahid",male,20,15.7417,C,3,1,1,1,Mr,SURVIVED
+623,624,"Hansen, Mr. Henry Damsgaard",male,21,7.8542,S,3,0,0,0,Mr,NOT SURVIVED
+624,625,"Bowen, Mr. David John ""Dai""",male,21,16.1,S,3,0,0,0,Mr,NOT SURVIVED
+625,626,"Sutton, Mr. Frederick",male,61,32.3208,S,1,0,0,0,Mr,NOT SURVIVED
+626,627,"Kirkland, Rev. Charles Leonard",male,57,12.35,Q,2,0,0,0,Officer,NOT SURVIVED
+627,628,"Longley, Miss. Gretchen Fiske",female,21,77.9583,S,1,0,0,1,Miss,SURVIVED
+628,629,"Bostandyeff, Mr. Guentcho",male,26,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+629,630,"O'Connell, Mr. Patrick D",male,30,7.7333,Q,3,0,0,0,Mr,NOT SURVIVED
+630,631,"Barkworth, Mr. Algernon Henry Wilson",male,80,30,S,1,0,0,1,Mr,SURVIVED
+631,632,"Lundahl, Mr. Johan Svensson",male,51,7.0542,S,3,0,0,0,Mr,NOT SURVIVED
+632,633,"Stahelin-Maeglin, Dr. Max",male,32,30.5,C,1,0,0,1,Officer,SURVIVED
+633,634,"Parr, Mr. William Henry Marsh",male,30,0,S,1,0,0,0,Mr,NOT SURVIVED
+634,635,"Skoog, Miss. Mabel",female,9,27.9,S,3,3,2,0,Miss,NOT SURVIVED
+635,636,"Davis, Miss. Mary",female,28,13,S,2,0,0,1,Miss,SURVIVED
+636,637,"Leinonen, Mr. Antti Gustaf",male,32,7.925,S,3,0,0,0,Mr,NOT SURVIVED
+637,638,"Collyer, Mr. Harvey",male,31,26.25,S,2,1,1,0,Mr,NOT SURVIVED
+638,639,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41,39.6875,S,3,0,5,0,Mrs,NOT SURVIVED
+639,640,"Thorneycroft, Mr. Percival",male,30,16.1,S,3,1,0,0,Mr,NOT SURVIVED
+640,641,"Jensen, Mr. Hans Peder",male,20,7.8542,S,3,0,0,0,Mr,NOT SURVIVED
+641,642,"Sagesser, Mlle. Emma",female,24,69.3,C,1,0,0,1,Miss,SURVIVED
+642,643,"Skoog, Miss. Margit Elizabeth",female,2,27.9,S,3,3,2,0,Miss,NOT SURVIVED
+643,644,"Foo, Mr. Choong",male,30,56.4958,S,3,0,0,1,Mr,SURVIVED
+644,645,"Baclini, Miss. Eugenie",female,0.75,19.2583,C,3,2,1,1,Miss,SURVIVED
+645,646,"Harper, Mr. Henry Sleeper",male,48,76.7292,C,1,1,0,1,Mr,SURVIVED
+646,647,"Cor, Mr. Liudevit",male,19,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+647,648,"Simonius-Blumer, Col. Oberst Alfons",male,56,35.5,C,1,0,0,1,Officer,SURVIVED
+648,649,"Willey, Mr. Edward",male,30,7.55,S,3,0,0,0,Mr,NOT SURVIVED
+649,650,"Stanley, Miss. Amy Zillah Elsie",female,23,7.55,S,3,0,0,1,Miss,SURVIVED
+650,651,"Mitkoff, Mr. Mito",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+651,652,"Doling, Miss. Elsie",female,18,23,S,2,0,1,1,Miss,SURVIVED
+652,653,"Kalvik, Mr. Johannes Halvorsen",male,21,8.4333,S,3,0,0,0,Mr,NOT SURVIVED
+653,654,"O'Leary, Miss. Hanora ""Norah""",female,21,7.8292,Q,3,0,0,1,Miss,SURVIVED
+654,655,"Hegarty, Miss. Hanora ""Nora""",female,18,6.75,Q,3,0,0,0,Miss,NOT SURVIVED
+655,656,"Hickman, Mr. Leonard Mark",male,24,73.5,S,2,2,0,0,Mr,NOT SURVIVED
+656,657,"Radeff, Mr. Alexander",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+657,658,"Bourke, Mrs. John (Catherine)",female,32,15.5,Q,3,1,1,0,Mrs,NOT SURVIVED
+658,659,"Eitemiller, Mr. George Floyd",male,23,13,S,2,0,0,0,Mr,NOT SURVIVED
+659,660,"Newell, Mr. Arthur Webster",male,58,113.275,C,1,0,2,0,Mr,NOT SURVIVED
+660,661,"Frauenthal, Dr. Henry William",male,50,133.65,S,1,2,0,1,Officer,SURVIVED
+661,662,"Badt, Mr. Mohamed",male,40,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+662,663,"Colley, Mr. Edward Pomeroy",male,47,25.5875,S,1,0,0,0,Mr,NOT SURVIVED
+663,664,"Coleff, Mr. Peju",male,36,7.4958,S,3,0,0,0,Mr,NOT SURVIVED
+664,665,"Lindqvist, Mr. Eino William",male,20,7.925,S,3,1,0,1,Mr,SURVIVED
+665,666,"Hickman, Mr. Lewis",male,32,73.5,S,2,2,0,0,Mr,NOT SURVIVED
+666,667,"Butler, Mr. Reginald Fenton",male,25,13,S,2,0,0,0,Mr,NOT SURVIVED
+667,668,"Rommetvedt, Mr. Knud Paust",male,30,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+668,669,"Cook, Mr. Jacob",male,43,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+669,670,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,35,52,S,1,1,0,1,Mrs,SURVIVED
+670,671,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,39,S,2,1,1,1,Mrs,SURVIVED
+671,672,"Davidson, Mr. Thornton",male,31,52,S,1,1,0,0,Mr,NOT SURVIVED
+672,673,"Mitchell, Mr. Henry Michael",male,70,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+673,674,"Wilhelms, Mr. Charles",male,31,13,S,2,0,0,1,Mr,SURVIVED
+674,675,"Watson, Mr. Ennis Hastings",male,30,0,S,2,0,0,0,Mr,NOT SURVIVED
+675,676,"Edvardsson, Mr. Gustaf Hjalmar",male,18,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+676,677,"Sawyer, Mr. Frederick Charles",male,24.5,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+677,678,"Turja, Miss. Anna Sofia",female,18,9.8417,S,3,0,0,1,Miss,SURVIVED
+678,679,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43,46.9,S,3,1,6,0,Mrs,NOT SURVIVED
+679,680,"Cardeza, Mr. Thomas Drake Martinez",male,36,512.3292,C,1,0,1,1,Mr,SURVIVED
+680,681,"Peters, Miss. Katie",female,21,8.1375,Q,3,0,0,0,Miss,NOT SURVIVED
+681,682,"Hassab, Mr. Hammad",male,27,76.7292,C,1,0,0,1,Mr,SURVIVED
+682,683,"Olsvigen, Mr. Thor Anderson",male,20,9.225,S,3,0,0,0,Mr,NOT SURVIVED
+683,684,"Goodwin, Mr. Charles Edward",male,14,46.9,S,3,5,2,0,Mr,NOT SURVIVED
+684,685,"Brown, Mr. Thomas William Solomon",male,60,39,S,2,1,1,0,Mr,NOT SURVIVED
+685,686,"Laroche, Mr. Joseph Philippe Lemercier",male,25,41.5792,C,2,1,2,0,Mr,NOT SURVIVED
+686,687,"Panula, Mr. Jaako Arnold",male,14,39.6875,S,3,4,1,0,Mr,NOT SURVIVED
+687,688,"Dakic, Mr. Branko",male,19,10.1708,S,3,0,0,0,Mr,NOT SURVIVED
+688,689,"Fischer, Mr. Eberhard Thelander",male,18,7.7958,S,3,0,0,0,Mr,NOT SURVIVED
+689,690,"Madill, Miss. Georgette Alexandra",female,15,211.3375,S,1,0,1,1,Miss,SURVIVED
+690,691,"Dick, Mr. Albert Adrian",male,31,57,S,1,1,0,1,Mr,SURVIVED
+691,692,"Karun, Miss. Manca",female,4,13.4167,C,3,0,1,1,Miss,SURVIVED
+692,693,"Lam, Mr. Ali",male,30,56.4958,S,3,0,0,1,Mr,SURVIVED
+693,694,"Saad, Mr. Khalil",male,25,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+694,695,"Weir, Col. John",male,60,26.55,S,1,0,0,0,Officer,NOT SURVIVED
+695,696,"Chapman, Mr. Charles Henry",male,52,13.5,S,2,0,0,0,Mr,NOT SURVIVED
+696,697,"Kelly, Mr. James",male,44,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+697,698,"Mullens, Miss. Katherine ""Katie""",female,21,7.7333,Q,3,0,0,1,Miss,SURVIVED
+698,699,"Thayer, Mr. John Borland",male,49,110.8833,C,1,1,1,0,Mr,NOT SURVIVED
+699,700,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,7.65,S,3,0,0,0,Mr,NOT SURVIVED
+700,701,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,227.525,C,1,1,0,1,Mrs,SURVIVED
+701,702,"Silverthorne, Mr. Spencer Victor",male,35,26.2875,S,1,0,0,1,Mr,SURVIVED
+702,703,"Barbara, Miss. Saiide",female,18,14.4542,C,3,0,1,0,Miss,NOT SURVIVED
+703,704,"Gallagher, Mr. Martin",male,25,7.7417,Q,3,0,0,0,Mr,NOT SURVIVED
+704,705,"Hansen, Mr. Henrik Juul",male,26,7.8542,S,3,1,0,0,Mr,NOT SURVIVED
+705,706,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39,26,S,2,0,0,0,Mr,NOT SURVIVED
+706,707,"Kelly, Mrs. Florence ""Fannie""",female,45,13.5,S,2,0,0,1,Mrs,SURVIVED
+707,708,"Calderhead, Mr. Edward Pennington",male,42,26.2875,S,1,0,0,1,Mr,SURVIVED
+708,709,"Cleaver, Miss. Alice",female,22,151.55,S,1,0,0,1,Miss,SURVIVED
+709,710,"Moubarek, Master. Halim Gonios (""William George"")",male,3.5,15.2458,C,3,1,1,1,Master,SURVIVED
+710,711,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24,49.5042,C,1,0,0,1,Miss,SURVIVED
+711,712,"Klaber, Mr. Herman",male,30,26.55,S,1,0,0,0,Mr,NOT SURVIVED
+712,713,"Taylor, Mr. Elmer Zebley",male,48,52,S,1,1,0,1,Mr,SURVIVED
+713,714,"Larsson, Mr. August Viktor",male,29,9.4833,S,3,0,0,0,Mr,NOT SURVIVED
+714,715,"Greenberg, Mr. Samuel",male,52,13,S,2,0,0,0,Mr,NOT SURVIVED
+715,716,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,7.65,S,3,0,0,0,Mr,NOT SURVIVED
+716,717,"Endres, Miss. Caroline Louise",female,38,227.525,C,1,0,0,1,Miss,SURVIVED
+717,718,"Troutt, Miss. Edwina Celia ""Winnie""",female,27,10.5,S,2,0,0,1,Miss,SURVIVED
+718,719,"McEvoy, Mr. Michael",male,30,15.5,Q,3,0,0,0,Mr,NOT SURVIVED
+719,720,"Johnson, Mr. Malkolm Joackim",male,33,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+720,721,"Harper, Miss. Annie Jessie ""Nina""",female,6,33,S,2,0,1,1,Miss,SURVIVED
+721,722,"Jensen, Mr. Svend Lauritz",male,17,7.0542,S,3,1,0,0,Mr,NOT SURVIVED
+722,723,"Gillespie, Mr. William Henry",male,34,13,S,2,0,0,0,Mr,NOT SURVIVED
+723,724,"Hodges, Mr. Henry Price",male,50,13,S,2,0,0,0,Mr,NOT SURVIVED
+724,725,"Chambers, Mr. Norman Campbell",male,27,53.1,S,1,1,0,1,Mr,SURVIVED
+725,726,"Oreskovic, Mr. Luka",male,20,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+726,727,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30,21,S,2,3,0,1,Mrs,SURVIVED
+727,728,"Mannion, Miss. Margareth",female,21,7.7375,Q,3,0,0,1,Miss,SURVIVED
+728,729,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,26,S,2,1,0,0,Mr,NOT SURVIVED
+729,730,"Ilmakangas, Miss. Pieta Sofia",female,25,7.925,S,3,1,0,0,Miss,NOT SURVIVED
+730,731,"Allen, Miss. Elisabeth Walton",female,29,211.3375,S,1,0,0,1,Miss,SURVIVED
+731,732,"Hassan, Mr. Houssein G N",male,11,18.7875,C,3,0,0,0,Mr,NOT SURVIVED
+732,733,"Knight, Mr. Robert J",male,30,0,S,2,0,0,0,Mr,NOT SURVIVED
+733,734,"Berriman, Mr. William John",male,23,13,S,2,0,0,0,Mr,NOT SURVIVED
+734,735,"Troupiansky, Mr. Moses Aaron",male,23,13,S,2,0,0,0,Mr,NOT SURVIVED
+735,736,"Williams, Mr. Leslie",male,28.5,16.1,S,3,0,0,0,Mr,NOT SURVIVED
+736,737,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48,34.375,S,3,1,3,0,Mrs,NOT SURVIVED
+737,738,"Lesurer, Mr. Gustave J",male,35,512.3292,C,1,0,0,1,Mr,SURVIVED
+738,739,"Ivanoff, Mr. Kanio",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+739,740,"Nankoff, Mr. Minko",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+740,741,"Hawksford, Mr. Walter James",male,30,30,S,1,0,0,1,Mr,SURVIVED
+741,742,"Cavendish, Mr. Tyrell William",male,36,78.85,S,1,1,0,0,Mr,NOT SURVIVED
+742,743,"Ryerson, Miss. Susan Parker ""Suzette""",female,21,262.375,C,1,2,2,1,Miss,SURVIVED
+743,744,"McNamee, Mr. Neal",male,24,16.1,S,3,1,0,0,Mr,NOT SURVIVED
+744,745,"Stranden, Mr. Juho",male,31,7.925,S,3,0,0,1,Mr,SURVIVED
+745,746,"Crosby, Capt. Edward Gifford",male,70,71,S,1,1,1,0,Officer,NOT SURVIVED
+746,747,"Abbott, Mr. Rossmore Edward",male,16,20.25,S,3,1,1,0,Mr,NOT SURVIVED
+747,748,"Sinkkonen, Miss. Anna",female,30,13,S,2,0,0,1,Miss,SURVIVED
+748,749,"Marvin, Mr. Daniel Warner",male,19,53.1,S,1,1,0,0,Mr,NOT SURVIVED
+749,750,"Connaghton, Mr. Michael",male,31,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+750,751,"Wells, Miss. Joan",female,4,23,S,2,1,1,1,Miss,SURVIVED
+751,752,"Moor, Master. Meier",male,6,12.475,S,3,0,1,1,Master,SURVIVED
+752,753,"Vande Velde, Mr. Johannes Joseph",male,33,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+753,754,"Jonkoff, Mr. Lalio",male,23,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+754,755,"Herman, Mrs. Samuel (Jane Laver)",female,48,65,S,2,1,2,1,Mrs,SURVIVED
+755,756,"Hamalainen, Master. Viljo",male,0.67,14.5,S,2,1,1,1,Master,SURVIVED
+756,757,"Carlsson, Mr. August Sigfrid",male,28,7.7958,S,3,0,0,0,Mr,NOT SURVIVED
+757,758,"Bailey, Mr. Percy Andrew",male,18,11.5,S,2,0,0,0,Mr,NOT SURVIVED
+758,759,"Theobald, Mr. Thomas Leonard",male,34,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+759,760,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,86.5,S,1,0,0,1,Royalty,SURVIVED
+760,761,"Garfirth, Mr. John",male,30,14.5,S,3,0,0,0,Mr,NOT SURVIVED
+761,762,"Nirva, Mr. Iisakki Antino Aijo",male,41,7.125,S,3,0,0,0,Mr,NOT SURVIVED
+762,763,"Barah, Mr. Hanna Assi",male,20,7.2292,C,3,0,0,1,Mr,SURVIVED
+763,764,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,120,S,1,1,2,1,Mrs,SURVIVED
+764,765,"Eklund, Mr. Hans Linus",male,16,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+765,766,"Hogeboom, Mrs. John C (Anna Andrews)",female,51,77.9583,S,1,1,0,1,Mrs,SURVIVED
+766,767,"Brewe, Dr. Arthur Jackson",male,50,39.6,C,1,0,0,0,Officer,NOT SURVIVED
+767,768,"Mangan, Miss. Mary",female,30.5,7.75,Q,3,0,0,0,Miss,NOT SURVIVED
+768,769,"Moran, Mr. Daniel J",male,30,24.15,Q,3,1,0,0,Mr,NOT SURVIVED
+769,770,"Gronnestad, Mr. Daniel Danielsen",male,32,8.3625,S,3,0,0,0,Mr,NOT SURVIVED
+770,771,"Lievens, Mr. Rene Aime",male,24,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+771,772,"Jensen, Mr. Niels Peder",male,48,7.8542,S,3,0,0,0,Mr,NOT SURVIVED
+772,773,"Mack, Mrs. (Mary)",female,57,10.5,S,2,0,0,0,Mrs,NOT SURVIVED
+773,774,"Elias, Mr. Dibo",male,30,7.225,C,3,0,0,0,Mr,NOT SURVIVED
+774,775,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54,23,S,2,1,3,1,Mrs,SURVIVED
+775,776,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,7.75,S,3,0,0,0,Mr,NOT SURVIVED
+776,777,"Tobin, Mr. Roger",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+777,778,"Emanuel, Miss. Virginia Ethel",female,5,12.475,S,3,0,0,1,Miss,SURVIVED
+778,779,"Kilgannon, Mr. Thomas J",male,30,7.7375,Q,3,0,0,0,Mr,NOT SURVIVED
+779,780,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,211.3375,S,1,0,1,1,Mrs,SURVIVED
+780,781,"Ayoub, Miss. Banoura",female,13,7.2292,C,3,0,0,1,Miss,SURVIVED
+781,782,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,57,S,1,1,0,1,Mrs,SURVIVED
+782,783,"Long, Mr. Milton Clyde",male,29,30,S,1,0,0,0,Mr,NOT SURVIVED
+783,784,"Johnston, Mr. Andrew G",male,30,23.45,S,3,1,2,0,Mr,NOT SURVIVED
+784,785,"Ali, Mr. William",male,25,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+785,786,"Harmer, Mr. Abraham (David Lishin)",male,25,7.25,S,3,0,0,0,Mr,NOT SURVIVED
+786,787,"Sjoblom, Miss. Anna Sofia",female,18,7.4958,S,3,0,0,1,Miss,SURVIVED
+787,788,"Rice, Master. George Hugh",male,8,29.125,Q,3,4,1,0,Master,NOT SURVIVED
+788,789,"Dean, Master. Bertram Vere",male,1,20.575,S,3,1,2,1,Master,SURVIVED
+789,790,"Guggenheim, Mr. Benjamin",male,46,79.2,C,1,0,0,0,Mr,NOT SURVIVED
+790,791,"Keane, Mr. Andrew ""Andy""",male,30,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
+791,792,"Gaskell, Mr. Alfred",male,16,26,S,2,0,0,0,Mr,NOT SURVIVED
+792,793,"Sage, Miss. Stella Anna",female,21,69.55,S,3,8,2,0,Miss,NOT SURVIVED
+793,794,"Hoyt, Mr. William Fisher",male,30,30.6958,C,1,0,0,0,Mr,NOT SURVIVED
+794,795,"Dantcheff, Mr. Ristiu",male,25,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+795,796,"Otter, Mr. Richard",male,39,13,S,2,0,0,0,Mr,NOT SURVIVED
+796,797,"Leader, Dr. Alice (Farnham)",female,49,25.9292,S,1,0,0,1,Officer,SURVIVED
+797,798,"Osman, Mrs. Mara",female,31,8.6833,S,3,0,0,1,Mrs,SURVIVED
+798,799,"Ibrahim Shawah, Mr. Yousseff",male,30,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+799,800,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30,24.15,S,3,1,1,0,Mrs,NOT SURVIVED
+800,801,"Ponesell, Mr. Martin",male,34,13,S,2,0,0,0,Mr,NOT SURVIVED
+801,802,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31,26.25,S,2,1,1,1,Mrs,SURVIVED
+802,803,"Carter, Master. William Thornton II",male,11,120,S,1,1,2,1,Master,SURVIVED
+803,804,"Thomas, Master. Assad Alexander",male,0.42,8.5167,C,3,0,1,1,Master,SURVIVED
+804,805,"Hedman, Mr. Oskar Arvid",male,27,6.975,S,3,0,0,1,Mr,SURVIVED
+805,806,"Johansson, Mr. Karl Johan",male,31,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+806,807,"Andrews, Mr. Thomas Jr",male,39,0,S,1,0,0,0,Mr,NOT SURVIVED
+807,808,"Pettersson, Miss. Ellen Natalia",female,18,7.775,S,3,0,0,0,Miss,NOT SURVIVED
+808,809,"Meyer, Mr. August",male,39,13,S,2,0,0,0,Mr,NOT SURVIVED
+809,810,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,53.1,S,1,1,0,1,Mrs,SURVIVED
+810,811,"Alexander, Mr. William",male,26,7.8875,S,3,0,0,0,Mr,NOT SURVIVED
+811,812,"Lester, Mr. James",male,39,24.15,S,3,0,0,0,Mr,NOT SURVIVED
+812,813,"Slemen, Mr. Richard James",male,35,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+813,814,"Andersson, Miss. Ebba Iris Alfrida",female,6,31.275,S,3,4,2,0,Miss,NOT SURVIVED
+814,815,"Tomlin, Mr. Ernest Portage",male,30.5,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+815,816,"Fry, Mr. Richard",male,30,0,S,1,0,0,0,Mr,NOT SURVIVED
+816,817,"Heininen, Miss. Wendla Maria",female,23,7.925,S,3,0,0,0,Miss,NOT SURVIVED
+817,818,"Mallet, Mr. Albert",male,31,37.0042,C,2,1,1,0,Mr,NOT SURVIVED
+818,819,"Holm, Mr. John Fredrik Alexander",male,43,6.45,S,3,0,0,0,Mr,NOT SURVIVED
+819,820,"Skoog, Master. Karl Thorsten",male,10,27.9,S,3,3,2,0,Master,NOT SURVIVED
+820,821,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52,93.5,S,1,1,1,1,Mrs,SURVIVED
+821,822,"Lulic, Mr. Nikola",male,27,8.6625,S,3,0,0,1,Mr,SURVIVED
+822,823,"Reuchlin, Jonkheer. John George",male,38,0,S,1,0,0,0,Royalty,NOT SURVIVED
+823,824,"Moor, Mrs. (Beila)",female,27,12.475,S,3,0,1,1,Mrs,SURVIVED
+824,825,"Panula, Master. Urho Abraham",male,2,39.6875,S,3,4,1,0,Master,NOT SURVIVED
+825,826,"Flynn, Mr. John",male,30,6.95,Q,3,0,0,0,Mr,NOT SURVIVED
+826,827,"Lam, Mr. Len",male,30,56.4958,S,3,0,0,0,Mr,NOT SURVIVED
+827,828,"Mallet, Master. Andre",male,1,37.0042,C,2,0,2,1,Master,SURVIVED
+828,829,"McCormack, Mr. Thomas Joseph",male,30,7.75,Q,3,0,0,1,Mr,SURVIVED
+829,831,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15,14.4542,C,3,1,0,1,Mrs,SURVIVED
+830,832,"Richards, Master. George Sibley",male,0.83,18.75,S,2,1,1,1,Master,SURVIVED
+831,833,"Saad, Mr. Amin",male,30,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+832,834,"Augustsson, Mr. Albert",male,23,7.8542,S,3,0,0,0,Mr,NOT SURVIVED
+833,835,"Allum, Mr. Owen George",male,18,8.3,S,3,0,0,0,Mr,NOT SURVIVED
+834,836,"Compton, Miss. Sara Rebecca",female,39,83.1583,C,1,1,1,1,Miss,SURVIVED
+835,837,"Pasic, Mr. Jakob",male,21,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+836,838,"Sirota, Mr. Maurice",male,30,8.05,S,3,0,0,0,Mr,NOT SURVIVED
+837,839,"Chip, Mr. Chang",male,32,56.4958,S,3,0,0,1,Mr,SURVIVED
+838,840,"Marechal, Mr. Pierre",male,30,29.7,C,1,0,0,1,Mr,SURVIVED
+839,841,"Alhomaki, Mr. Ilmari Rudolf",male,20,7.925,S,3,0,0,0,Mr,NOT SURVIVED
+840,842,"Mudd, Mr. Thomas Charles",male,16,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+841,843,"Serepeca, Miss. Augusta",female,30,31,C,1,0,0,1,Miss,SURVIVED
+842,844,"Lemberopolous, Mr. Peter L",male,34.5,6.4375,C,3,0,0,0,Mr,NOT SURVIVED
+843,845,"Culumovic, Mr. Jeso",male,17,8.6625,S,3,0,0,0,Mr,NOT SURVIVED
+844,846,"Abbing, Mr. Anthony",male,42,7.55,S,3,0,0,0,Mr,NOT SURVIVED
+845,847,"Sage, Mr. Douglas Bullen",male,30,69.55,S,3,8,2,0,Mr,NOT SURVIVED
+846,848,"Markoff, Mr. Marin",male,35,7.8958,C,3,0,0,0,Mr,NOT SURVIVED
+847,849,"Harper, Rev. John",male,28,33,S,2,0,1,0,Officer,NOT SURVIVED
+848,850,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,35,89.1042,C,1,1,0,1,Mrs,SURVIVED
+849,851,"Andersson, Master. Sigvard Harald Elias",male,4,31.275,S,3,4,2,0,Master,NOT SURVIVED
+850,852,"Svensson, Mr. Johan",male,74,7.775,S,3,0,0,0,Mr,NOT SURVIVED
+851,853,"Boulos, Miss. Nourelain",female,9,15.2458,C,3,1,1,0,Miss,NOT SURVIVED
+852,854,"Lines, Miss. Mary Conover",female,16,39.4,S,1,0,1,1,Miss,SURVIVED
+853,855,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44,26,S,2,1,0,0,Mrs,NOT SURVIVED
+854,856,"Aks, Mrs. Sam (Leah Rosen)",female,18,9.35,S,3,0,1,1,Mrs,SURVIVED
+855,857,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,164.8667,S,1,1,1,1,Mrs,SURVIVED
+856,858,"Daly, Mr. Peter Denis ",male,51,26.55,S,1,0,0,1,Mr,SURVIVED
+857,859,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,19.2583,C,3,0,3,1,Mrs,SURVIVED
+858,860,"Razi, Mr. Raihed",male,30,7.2292,C,3,0,0,0,Mr,NOT SURVIVED
+859,861,"Hansen, Mr. Claus Peter",male,41,14.1083,S,3,2,0,0,Mr,NOT SURVIVED
+860,862,"Giles, Mr. Frederick Edward",male,21,11.5,S,2,1,0,0,Mr,NOT SURVIVED
+861,863,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,25.9292,S,1,0,0,1,Mrs,SURVIVED
+862,864,"Sage, Miss. Dorothy Edith ""Dolly""",female,21,69.55,S,3,8,2,0,Miss,NOT SURVIVED
+863,865,"Gill, Mr. John William",male,24,13,S,2,0,0,0,Mr,NOT SURVIVED
+864,866,"Bystrom, Mrs. (Karolina)",female,42,13,S,2,0,0,1,Mrs,SURVIVED
+865,867,"Duran y More, Miss. Asuncion",female,27,13.8583,C,2,1,0,1,Miss,SURVIVED
+866,868,"Roebling, Mr. Washington Augustus II",male,31,50.4958,S,1,0,0,0,Mr,NOT SURVIVED
+867,869,"van Melkebeke, Mr. Philemon",male,30,9.5,S,3,0,0,0,Mr,NOT SURVIVED
+868,870,"Johnson, Master. Harold Theodor",male,4,11.1333,S,3,1,1,1,Master,SURVIVED
+869,871,"Balkic, Mr. Cerin",male,26,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+870,872,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,52.5542,S,1,1,1,1,Mrs,SURVIVED
+871,873,"Carlsson, Mr. Frans Olof",male,33,5,S,1,0,0,0,Mr,NOT SURVIVED
+872,874,"Vander Cruyssen, Mr. Victor",male,47,9,S,3,0,0,0,Mr,NOT SURVIVED
+873,875,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28,24,C,2,1,0,1,Mrs,SURVIVED
+874,876,"Najib, Miss. Adele Kiamie ""Jane""",female,15,7.225,C,3,0,0,1,Miss,SURVIVED
+875,877,"Gustafsson, Mr. Alfred Ossian",male,20,9.8458,S,3,0,0,0,Mr,NOT SURVIVED
+876,878,"Petroff, Mr. Nedelio",male,19,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+877,879,"Laleff, Mr. Kristo",male,30,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+878,880,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56,83.1583,C,1,0,1,1,Mrs,SURVIVED
+879,881,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25,26,S,2,0,1,1,Mrs,SURVIVED
+880,882,"Markun, Mr. Johann",male,33,7.8958,S,3,0,0,0,Mr,NOT SURVIVED
+881,883,"Dahlberg, Miss. Gerda Ulrika",female,22,10.5167,S,3,0,0,0,Miss,NOT SURVIVED
+882,884,"Banfield, Mr. Frederick James",male,28,10.5,S,2,0,0,0,Mr,NOT SURVIVED
+883,885,"Sutehall, Mr. Henry Jr",male,25,7.05,S,3,0,0,0,Mr,NOT SURVIVED
+884,886,"Rice, Mrs. William (Margaret Norton)",female,39,29.125,Q,3,0,5,0,Mrs,NOT SURVIVED
+885,887,"Montvila, Rev. Juozas",male,27,13,S,2,0,0,0,Officer,NOT SURVIVED
+886,888,"Graham, Miss. Margaret Edith",female,19,30,S,1,0,0,1,Miss,SURVIVED
+887,889,"Johnston, Miss. Catherine Helen ""Carrie""",female,21,23.45,S,3,1,2,0,Miss,NOT SURVIVED
+888,890,"Behr, Mr. Karl Howell",male,26,30,C,1,0,0,1,Mr,SURVIVED
+889,891,"Dooley, Mr. Patrick",male,32,7.75,Q,3,0,0,0,Mr,NOT SURVIVED
